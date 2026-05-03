@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav>
+      <div class="logo">JUSTINE.</div>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Hi, I'm Justine Salinas</h1>
+        <p>
+          An aspiring Web Developer and a student from GRC. I build simple,
+          responsive, and creative websites as I grow my skills in coding and
+          design. This portfolio showcases my journey in turning ideas into
+          functional web experiences.
+        </p>
+        <button
+          class="btn"
+          onclick="document.getElementById('contact').scrollIntoView()"
+        >
+          CONTACT ME
+        </button>
+      </div>
+
+      <div class="hero-img">
+        <img
+          src="profile.png"
+          alt="profile"
+          style="border-radius: 50%; width: 500px; height: 500px; margin-right: 100px;"
+        />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+<section class="section-light" id="about">
+  <h2>ABOUT ME</h2>
+  <p>
+    I am a consistent ICT Honor student who achieved the highest grades in
+    all my major subjects during my Senior High School years at MBASH Unit-1.
+    This experience strengthened my discipline, focus, and passion for technology.
+    <br><br>
+    Now, I am more committed than ever to my chosen course in Information Technology (IT),
+    where I continue to build my skills, expand my knowledge, and grow as a future web developer.
+  </p>
+
+  <!-- SKILLS -->
+  <h3 style="margin-top:30px;">Skills</h3>
+  <div class="skills">
+    <span>WEB DESIGN</span> 
+    <span>GRAPHIC DESIGN</span>
+    <span>PHOTOGRAPHY</span>
+  </div>
+
+  <!-- EDUCATION -->
+  <h3 style="margin-top:30px;">Education</h3>
+  <br>
+  <div class="education">
+    <p><strong>High School</strong></p>
+    <p>MBASH Unit-1</p>
+    <p></p>
+
+    <br>
+
+    <p><strong>Senior High School</strong></p>
+    <p>MBASH Unit-1</p>
+    <p>Information and Communications Technology (ICT) </p>
+
+    <br>
+
+    <p><strong>College</strong></p>
+    <p>GRC (Current)</p>
+    <p>Bachelor of Science in Information Technology</p>
+  </div>
+</section>
+
+    <!-- PORTFOLIO -->
+    <section class="section-dark" id="projects">
+      <h2>PROJECTS</h2>
+
+      <div class="project">
+        <h2>1ST SEM FINAL PROJECT</h2>
+        <p>Car Dealership Webpage (AURUM DRIVE)</p>
+        <h4 style="margin-top: 10px;">Tool Used:</h4>
+        <p style="margin-top: 10px;">HTML, CSS</p>
+        
+        <img src="Screenshot 2026-05-03 210847.png" />
+        <img src="Screenshot 2026-05-03 210856.png" />
+      </div>
+
+      <div class="project">
+        <h2>CALENDAR</h2>
+        <p>2025 Calendar (Jan - Dec) With Holidays</p>
+        <h4 style="margin-top: 10px;">Tool Used:</h4>
+        <p style="margin-top: 10px;">HTML, CSS</p>
+        <img src="Screenshot 2026-05-03 210700.png" />
+        <img src="Screenshot 2026-05-03 210721.png" />
+      </div>
+
+        <div class="project">
+        <h2>ICONS</h2>
+        <p>Creating a Full Name using Font Awesome</p>
+        <h4 style="margin-top: 10px;">Tool Used:</h4>
+        <p style="margin-top: 10px;">HTML, CSS, Font Awesome</p>
+        <img src="Screenshot 2026-05-03 210803.png" />
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section-light" id="contact">
+    <div class="contacts">
+      <h2 style="text-align: center;">CONTACT ME</h2>
+
+      <form>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">SUBMIT</button>
+      </form>
+</div>
+    </section>
+
+  </body>
+</html>
